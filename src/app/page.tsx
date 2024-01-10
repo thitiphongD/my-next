@@ -1,9 +1,18 @@
 import React from "react";
+import Welcome from "./components/Welcome";
+import MySkills from "./components/MySkills";
+import MyProject from "./components/MyProject";
+import MyResume from "./components/MyResume";
+import Contact from "./components/Contact";
 
 const Home: React.FC = () => {
   return (
-    <div>
-      <h1 className="text-2xl underline">Hello thity2</h1>
+    <div className="bg-white p-8">
+      <Welcome />
+      <MySkills />
+      <MyProject />
+      <MyResume />
+      <Contact />
     </div>
   );
 };
