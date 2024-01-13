@@ -7,10 +7,10 @@ import Contact from "./components/Contact";
 
 const Home: React.FC = () => {
   return (
-    <div className="bg-white p-8">
+    <div className="bg-zinc-800">
       <Welcome />
       <MySkills />
-      <MyProject />
+      {/* <MyProject /> */}
       <MyResume />
       <Contact />
     </div>

@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 const MyProject: React.FC = () => {
   return (
     <section className="py-28 px-8">
@@ -17,7 +18,7 @@ const MyProject: React.FC = () => {
       <div className="container mx-auto grid grid-cols-1 gap-x-10 gap-y-20 md:grid-cols-2 xl:grid-cols-4">
         <div className="relative flex flex-col bg-clip-border rounded-xl bg-transparent text-gray-700 shadow-none">
           <div className="relative bg-clip-border rounded-xl overflow-hidden bg-white text-gray-700 shadow-lg mx-0 mt-0 mb-6 h-48">
-            <img
+            <Image
               alt="Mobile App Development"
               loading="lazy"
               width="768"
@@ -48,7 +49,7 @@ const MyProject: React.FC = () => {
         </div>
         <div className="relative flex flex-col bg-clip-border rounded-xl bg-transparent text-gray-700 shadow-none">
           <div className="relative bg-clip-border rounded-xl overflow-hidden bg-white text-gray-700 shadow-lg mx-0 mt-0 mb-6 h-48">
-            <img
+            <Image
               alt="Mobile App Development"
               loading="lazy"
               width="768"
@@ -79,7 +80,7 @@ const MyProject: React.FC = () => {
         </div>
         <div className="relative flex flex-col bg-clip-border rounded-xl bg-transparent text-gray-700 shadow-none">
           <div className="relative bg-clip-border rounded-xl overflow-hidden bg-white text-gray-700 shadow-lg mx-0 mt-0 mb-6 h-48">
-            <img
+            <Image
               alt="Mobile App Development"
               loading="lazy"
               width="768"
@@ -110,7 +111,7 @@ const MyProject: React.FC = () => {
         </div>
         <div className="relative flex flex-col bg-clip-border rounded-xl bg-transparent text-gray-700 shadow-none">
           <div className="relative bg-clip-border rounded-xl overflow-hidden bg-white text-gray-700 shadow-lg mx-0 mt-0 mb-6 h-48">
-            <img
+            <Image
               alt="Mobile App Development"
               loading="lazy"
               width="768"

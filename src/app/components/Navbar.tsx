@@ -1,21 +1,18 @@
 "use client";
 import Link from "next/link";
 import React, { useState } from "react";
+import { BugFilled } from "@ant-design/icons";
 
 const Navbar: React.FC = () => {
   return (
-    <header className="mx-auto w-full max-w-screen-md border border-gray-100 bg-white/80 py-3 shadow backdrop-blur-lg md:top-6 md:rounded-3xl lg:max-w-screen-lg">
+    <header className="mx-auto w-full max-w-screen-md border bg-zinc-500 py-3 md:top-6 md:rounded-3xl lg:max-w-screen-lg">
       <div className="px-4">
         <div className="flex items-center justify-between">
           <div className="flex shrink-0">
-            <Link aria-current="page" className="flex items-center" href="/">
-              <img
-                className="h-7 w-auto"
-                src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg"
-                alt=""
-              />
-              <p className="sr-only">Website Title</p>
-            </Link>
+            <BugFilled
+              className="text-emerald-400"
+              style={{ fontSize: "29px" }}
+            />
           </div>
           <div className="hidden md:flex md:items-center md:justify-center md:gap-5">
             <Link
